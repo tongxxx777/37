@@ -20,8 +20,8 @@ Page({
     day: "",
     chineseMonth: "",
     solarTerm: "人间小满",
-    recommendFruits: "苹果、沃柑、菠萝",
-    warmTips: "苹果虽然好吃也不要多吃哟，记得适量，爱惜你的身体~",
+    recommendFruits: "苹果、香蕉、沃柑、菠萝",
+    warmTips: "应季水果味美，适量品尝更健康 ：）",
   },
 
   // 获取中文月份
