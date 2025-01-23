@@ -22,13 +22,16 @@
     </view>
 
     <!-- 月份选择器 -->
-    <view class="month-selector">
-      <picker mode="selector" range="{{months}}" value="{{currentMonth-1}}" bindchange="onMonthChange">
-        <view class="month-picker">
-          <text class="current-month">{{currentMonth}}月</text>
-          <text class="picker-arrow">▼</text>
-        </view>
-      </picker>
+    <view class="month-grid">
+      <view 
+        class="month-btn {{currentMonth === index + 1 ? 'active' : ''}}" 
+        wx:for="{{months}}" 
+        wx:key="index"
+        bindtap="onMonthTap"
+        data-month="{{index + 1}}"
+      >
+        {{item}}
+      </view>
     </view>
     
     <!-- 水果列表 -->

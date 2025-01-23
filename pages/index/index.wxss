@@ -16,7 +16,7 @@ page {
 
 /* 顶部日期卡片 */
 .date-card {
-  margin-bottom: 10rpx;
+  margin-bottom: 16rpx;
   padding: 24rpx 32rpx;
   background: #f5f7fa;
   border-radius: 24rpx;
@@ -26,6 +26,7 @@ page {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 16rpx;
 }
 
 .date-left {
@@ -67,39 +68,42 @@ page {
   margin-top: 4rpx;
 }
 
+.date-content {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+
 .mood-icon {
   width: 80rpx;
   height: 80rpx;
   margin-top: -10rpx;
 }
 
-/* 月份选择器 */
-.month-selector {
-  margin-bottom: 10rpx;
-  display: flex;
-  justify-content: center;
-  padding: 0 24rpx;
-}
-
-.month-picker {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* 月份选择器网格样式 */
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12rpx;
+  padding: 16rpx 24rpx;
+  margin-bottom: 16rpx;
   background: #f5f7fa;
-  padding: 12rpx 32rpx;
-  border-radius: 32rpx;
-  width: 100%;
+  border-radius: 24rpx;
 }
 
-.current-month {
-  font-size: 28rpx;
-  font-weight: 400;
-  color: #333;
+.month-btn {
+  text-align: center;
+  padding: 16rpx 0;
+  font-size: 26rpx;
+  color: #666;
+  background: #fff;
+  border-radius: 12rpx;
+  transition: all 0.3s ease;
 }
 
-.picker-arrow {
-  font-size: 20rpx;
-  color: #999;
+.month-btn.active {
+  background: #2c3e50;
+  color: #fff;
 }
 
 /* 水果列表容器 */

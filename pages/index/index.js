@@ -65,6 +65,14 @@ Page({
     this.updateSeasonalFruits();
   },
 
+  onMonthTap(e) {
+    const month = e.currentTarget.dataset.month;
+    this.setData({
+      currentMonth: month,
+    });
+    this.updateSeasonalFruits();
+  },
+
   updateSeasonalFruits() {
     const fruitsData = {
       1: [
