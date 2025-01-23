@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/index/index", "pages/profile/profile"],
+  "pages": ["pages/index/index"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -13,7 +13,7 @@
     "skyline": {
       "defaultDisplayBlock": true,
       "defaultContentBox": true,
-      "tagNameStyleIsolation": "legacy",
+      "tagNameStyleIsolation": "isolated",
       "disableABTest": true,
       "sdkVersionBegin": "3.0.0",
       "sdkVersionEnd": "15.255.255"
