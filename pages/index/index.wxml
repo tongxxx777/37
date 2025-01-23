@@ -1,7 +1,49 @@
 <!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar title="应季水果" back="{{false}}" color="black" background="#FFF"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    Weixin
+    <!-- 月份选择器 -->
+    <view class="month-selector">
+      <picker mode="selector" range="{{months}}" value="{{currentMonth-1}}" bindchange="onMonthChange">
+        <view class="month-picker">
+          <text class="current-month">{{currentMonth}}月</text>
+          <text class="picker-arrow">▼</text>
+        </view>
+      </picker>
+    </view>
+    
+    <!-- 水果列表 -->
+    <view class="fruit-list">
+      <block wx:for="{{currentPageFruits}}" wx:key="index">
+        <view class="fruit-card">
+          <image class="fruit-image" src="{{item.image}}" mode="aspectFill"></image>
+          <view class="fruit-info">
+            <view class="fruit-header">
+              <text class="fruit-name">{{item.name}}</text>
+              <text class="fruit-price">¥{{item.price}}<text class="fruit-unit">/{{item.unit}}</text></text>
+            </view>
+            <view class="fruit-season">
+              <text class="label">应季时间</text>
+              <text class="value">{{item.season || '暂无信息'}}</text>
+            </view>
+            <view class="fruit-nutrition">
+              <text class="label">营养价值</text>
+              <text class="value">{{item.nutrition || '暂无信息'}}</text>
+            </view>
+            <view class="fruit-tips">
+              <text class="label">挑选建议</text>
+              <text class="value">{{item.tips || '暂无信息'}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <!-- 分页控件 -->
+    <view class="pagination">
+      <view class="page-btn {{currentPage === 0 ? 'disabled' : ''}}" bindtap="prevPage">上一页</view>
+      <view class="page-indicator">{{currentPage + 1}}/{{totalPages}}</view>
+      <view class="page-btn {{currentPage === totalPages - 1 ? 'disabled' : ''}}" bindtap="nextPage">下一页</view>
+    </view>
   </view>
 </scroll-view>
