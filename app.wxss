@@ -1,24 +1,10 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20rpx;
+  padding: 200rpx 0;
   box-sizing: border-box;
-}
-
-page {
-  background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-}
-
-.primary-color {
-  color: #1989fa;
-}
-
-.bg-white {
-  background-color: #ffffff;
 }
