@@ -7,13 +7,12 @@
       <view class="date-header">
         <view class="date-left">
           <text class="date-number">{{day}}</text>
-          <text class="date-month">/ {{chineseMonth}}月</text>
+          <text class="date-month">/ {{chineseMonth}}月\n</text>
         </view>
-        <image class="mood-icon" src="/assets/icons/mood.png" mode="aspectFit"></image>
       </view>
+      <text class="date-solar">人间小满\n</text>
+      <text class="date-motto">日有小暖，岁有小安\n</text>
       <view class="date-content">
-        <text class="date-solar">人间小满\n</text>
-        <text class="date-motto">日有小暖，岁有小安\n</text>
         <text>本月推荐：{{recommendFruits}}\n</text>
         <text>小提示：{{warmTips}}</text>
       </view>

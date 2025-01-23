@@ -26,6 +26,7 @@ page {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 15rpx;
 }
 
 .date-left {
@@ -51,7 +52,7 @@ page {
 }
 
 .date-solar {
-  font-size: 32rpx;
+  font-size: 38rpx;
   color: #333;
   font-weight: 500;
 }
@@ -66,12 +67,7 @@ page {
   font-size: 28rpx;
   color: #666;
   line-height: 1.6;
-}
-
-.mood-icon {
-  width: 80rpx;
-  height: 80rpx;
-  margin-top: -10rpx;
+  margin-top: 15rpx;
 }
 
 /* 月份选择器网格样式 */
