@@ -79,7 +79,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -89,7 +89,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -99,7 +99,7 @@ Page({
         {
           name: "沃柑",
           image:
-            "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8014a90f603738da977424fb51bb051f819ec5b",
           price: "6.5",
           unit: "斤",
           season: "冬季",
@@ -109,7 +109,7 @@ Page({
         {
           name: "菠萝",
           image:
-            "https://cdn.pixabay.com/photo/2017/03/11/18/13/pineapple-2135636_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8389b504fc2d562853556f5ef1190ef76c66c83",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -121,7 +121,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -131,7 +131,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -141,7 +141,7 @@ Page({
         {
           name: "沃柑",
           image:
-            "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8014a90f603738da977424fb51bb051f819ec5b",
           price: "6.5",
           unit: "斤",
           season: "冬季",
@@ -153,7 +153,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -163,7 +163,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -173,7 +173,7 @@ Page({
         {
           name: "沃柑",
           image:
-            "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8014a90f603738da977424fb51bb051f819ec5b",
           price: "6.5",
           unit: "斤",
           season: "冬季",
@@ -183,7 +183,7 @@ Page({
         {
           name: "嘉宝果",
           image:
-            "https://cdn.pixabay.com/photo/2018/05/08/20/19/pomegranate-3383814_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "25.8",
           unit: "斤",
           season: "全年",
@@ -193,7 +193,7 @@ Page({
         {
           name: "琵琶",
           image:
-            "https://cdn.pixabay.com/photo/2016/04/15/08/04/fruit-1330459_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -203,7 +203,7 @@ Page({
         {
           name: "青枣",
           image:
-            "https://cdn.pixabay.com/photo/2018/05/26/18/40/dates-3431859_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -215,7 +215,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -225,7 +225,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -235,7 +235,7 @@ Page({
         {
           name: "沃柑",
           image:
-            "https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8014a90f603738da977424fb51bb051f819ec5b",
           price: "6.5",
           unit: "斤",
           season: "冬季",
@@ -245,7 +245,7 @@ Page({
         {
           name: "菠萝",
           image:
-            "https://cdn.pixabay.com/photo/2017/03/11/18/13/pineapple-2135636_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8389b504fc2d562853556f5ef1190ef76c66c83",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -255,7 +255,7 @@ Page({
         {
           name: "嘉宝果",
           image:
-            "https://cdn.pixabay.com/photo/2018/05/08/20/19/pomegranate-3383814_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "25.8",
           unit: "斤",
           season: "全年",
@@ -267,7 +267,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -277,7 +277,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -287,7 +287,7 @@ Page({
         {
           name: "菠萝",
           image:
-            "https://cdn.pixabay.com/photo/2017/03/11/18/13/pineapple-2135636_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b8389b504fc2d562853556f5ef1190ef76c66c83",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -297,7 +297,7 @@ Page({
         {
           name: "嘉宝果",
           image:
-            "https://cdn.pixabay.com/photo/2018/05/08/20/19/pomegranate-3383814_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "25.8",
           unit: "斤",
           season: "全年",
@@ -307,7 +307,7 @@ Page({
         {
           name: "荔枝",
           image:
-            "https://cdn.pixabay.com/photo/2017/07/06/10/01/lychee-2477534_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -317,7 +317,7 @@ Page({
         {
           name: "桑葚",
           image:
-            "https://cdn.pixabay.com/photo/2018/06/04/13/36/mulberry-3453071_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -327,7 +327,7 @@ Page({
         {
           name: "青梅",
           image:
-            "https://cdn.pixabay.com/photo/2016/07/22/09/59/fruits-1534494_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "6.8",
           unit: "斤",
           season: "全年",
@@ -339,7 +339,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -349,7 +349,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -358,7 +358,8 @@ Page({
         },
         {
           name: "红毛丹",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "12.8",
           unit: "斤",
           season: "全年",
@@ -367,7 +368,8 @@ Page({
         },
         {
           name: "圣女果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "6.8",
           unit: "斤",
           season: "全年",
@@ -376,7 +378,8 @@ Page({
         },
         {
           name: "菠萝蜜",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -385,7 +388,8 @@ Page({
         },
         {
           name: "椰子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -394,7 +398,8 @@ Page({
         },
         {
           name: "杨梅",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "18.8",
           unit: "斤",
           season: "全年",
@@ -403,7 +408,8 @@ Page({
         },
         {
           name: "释迦果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "22.8",
           unit: "斤",
           season: "全年",
@@ -415,7 +421,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -425,7 +431,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -434,7 +440,8 @@ Page({
         },
         {
           name: "百香果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -443,7 +450,8 @@ Page({
         },
         {
           name: "哈密瓜",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "个",
           season: "全年",
@@ -452,7 +460,8 @@ Page({
         },
         {
           name: "蓝莓",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "25.8",
           unit: "盒",
           season: "全年",
@@ -461,7 +470,8 @@ Page({
         },
         {
           name: "黄皮果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -470,7 +480,8 @@ Page({
         },
         {
           name: "雪梨",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "6.8",
           unit: "斤",
           season: "全年",
@@ -479,7 +490,8 @@ Page({
         },
         {
           name: "无花果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -491,7 +503,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -501,7 +513,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -510,7 +522,8 @@ Page({
         },
         {
           name: "牛油果",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "12.8",
           unit: "个",
           season: "全年",
@@ -519,7 +532,8 @@ Page({
         },
         {
           name: "香梨",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "6.8",
           unit: "斤",
           season: "全年",
@@ -528,7 +542,8 @@ Page({
         },
         {
           name: "沙棘",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "15.8",
           unit: "斤",
           season: "全年",
@@ -540,7 +555,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -550,7 +565,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -559,7 +574,8 @@ Page({
         },
         {
           name: "猕猴桃",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "3.5",
           unit: "个",
           season: "全年",
@@ -568,7 +584,8 @@ Page({
         },
         {
           name: "柚子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "个",
           season: "全年",
@@ -577,7 +594,8 @@ Page({
         },
         {
           name: "蒙越莓",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "12.8",
           unit: "斤",
           season: "全年",
@@ -589,7 +607,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -599,7 +617,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -608,7 +626,8 @@ Page({
         },
         {
           name: "猕猴桃",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "3.5",
           unit: "个",
           season: "全年",
@@ -617,7 +636,8 @@ Page({
         },
         {
           name: "柚子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "个",
           season: "全年",
@@ -626,7 +646,8 @@ Page({
         },
         {
           name: "柿子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "6.8",
           unit: "斤",
           season: "全年",
@@ -635,7 +656,8 @@ Page({
         },
         {
           name: "金桔",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -647,7 +669,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -657,7 +679,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -666,7 +688,8 @@ Page({
         },
         {
           name: "柚子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "个",
           season: "全年",
@@ -678,7 +701,7 @@ Page({
         {
           name: "苹果",
           image:
-            "https://cdn.pixabay.com/photo/2017/09/26/13/21/apple-2788599_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "斤",
           season: "全年",
@@ -688,7 +711,7 @@ Page({
         {
           name: "香蕉",
           image:
-            "https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790_1280.jpg",
+            "https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6277f340e130828381e30fdc2",
           price: "5.5",
           unit: "斤",
           season: "全年",
@@ -697,7 +720,8 @@ Page({
         },
         {
           name: "柚子",
-          image: "https://example.com/placeholder.jpg",
+          image:
+            "https://bkimg.cdn.bcebos.com/pic/37d3d539b6003af33a8794753f2ac65c1038b61e",
           price: "8.8",
           unit: "个",
           season: "全年",
@@ -708,8 +732,13 @@ Page({
     };
 
     const monthFruits = fruitsData[this.data.currentMonth] || [];
+    // 确保每个水果都有图片，如果没有则使用默认图片
+    const fruitsWithImages = monthFruits.map((fruit) => ({
+      ...fruit,
+      image: fruit.image || fruitsData.defaultImage,
+    }));
     this.setData({
-      seasonalFruits: monthFruits,
+      seasonalFruits: fruitsWithImages,
     });
   },
 });
