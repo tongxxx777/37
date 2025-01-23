@@ -1,0 +1,37 @@
+<navigation-bar title="" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+  <view class="profile-header">
+    <view class="user-info">
+      <text class="school-name">民办未来科技学校</text>
+      <text class="location">2号楼中学部</text>
+    </view>
+  </view>
+
+  <view class="data-grid">
+    <view class="data-item">
+      <text class="data-value">25.6°C</text>
+      <text class="data-label">温度</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">72%</text>
+      <text class="data-label">湿度</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">优</text>
+      <text class="data-label">空气质量</text>
+    </view>
+  </view>
+
+  <view class="section-title">教室空气质量</view>
+  <view class="room-list">
+    <view class="room-item">
+      <view class="room-name">2号楼103教室</view>
+      <view class="room-status status-good">优</view>
+    </view>
+    <view class="room-item">
+      <view class="room-name">2号楼104教室</view>
+      <view class="room-status status-normal">良</view>
+    </view>
+    <!-- 更多教室... -->
+  </view>
+</view> 

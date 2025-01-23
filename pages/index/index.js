@@ -16,11 +16,32 @@ Page({
       "12月",
     ],
     currentMonth: 1,
-    currentPage: 0,
-    totalPages: 3,
-    pageSize: 5, // 每页5条
     seasonalFruits: [],
-    currentPageFruits: [],
+    day: "",
+    chineseMonth: "",
+    solarTerm: "人间小满",
+    recommendFruits: "苹果、沃柑、菠萝",
+    warmTips: "苹果虽然好吃也不要多吃哟，记得适量，爱惜你的身体~",
+  },
+
+  // 获取中文月份
+  getChineseMonth() {
+    const chineseMonths = [
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六",
+      "七",
+      "八",
+      "九",
+      "十",
+      "十一",
+      "十二",
+    ];
+    const currentMonth = new Date().getMonth();
+    return chineseMonths[currentMonth];
   },
 
   onLoad() {
@@ -28,6 +49,8 @@ Page({
     this.setData(
       {
         currentMonth: now.getMonth() + 1,
+        day: now.getDate().toString(),
+        chineseMonth: this.getChineseMonth(),
       },
       () => {
         this.updateSeasonalFruits();
@@ -38,7 +61,6 @@ Page({
   onMonthChange(e) {
     this.setData({
       currentMonth: Number(e.detail.value) + 1,
-      currentPage: 0, // 切换月份时重置页码
     });
     this.updateSeasonalFruits();
   },
@@ -678,51 +700,8 @@ Page({
     };
 
     const monthFruits = fruitsData[this.data.currentMonth] || [];
-
-    this.setData(
-      {
-        seasonalFruits: monthFruits,
-      },
-      () => {
-        this.updateCurrentPageFruits();
-      }
-    );
-  },
-
-  updateCurrentPageFruits() {
-    const { currentPage, pageSize, seasonalFruits } = this.data;
-    const start = currentPage * pageSize;
-    const currentPageFruits = seasonalFruits.slice(start, start + pageSize);
-
     this.setData({
-      currentPageFruits,
-      totalPages: Math.ceil(seasonalFruits.length / pageSize),
+      seasonalFruits: monthFruits,
     });
-  },
-
-  prevPage() {
-    if (this.data.currentPage > 0) {
-      this.setData(
-        {
-          currentPage: this.data.currentPage - 1,
-        },
-        () => {
-          this.updateCurrentPageFruits();
-        }
-      );
-    }
-  },
-
-  nextPage() {
-    if (this.data.currentPage < this.data.totalPages - 1) {
-      this.setData(
-        {
-          currentPage: this.data.currentPage + 1,
-        },
-        () => {
-          this.updateCurrentPageFruits();
-        }
-      );
-    }
   },
 });

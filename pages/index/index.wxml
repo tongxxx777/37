@@ -1,7 +1,26 @@
 <!--index.wxml-->
-<navigation-bar title="应季水果" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar title="" back="{{false}}" color="black" background="#FFF"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
+    <!-- 顶部日期卡片 -->
+    <view class="date-card">
+      <view class="date-header">
+        <view class="date-left">
+          <text class="date-number">{{day}}</text>
+          <view class="date-info">
+            <text class="date-month">/{{chineseMonth}}月</text>
+            <text class="date-solar">人间小满</text>
+            <text class="date-motto">日有小暖，岁有小安</text>
+          </view>
+        </view>
+        <image class="mood-icon" src="/assets/icons/mood.png" mode="aspectFit"></image>
+      </view>
+      <view class="date-content">
+        <text>本月推荐吃：{{recommendFruits}}\n</text>
+        <text>{{warmTips}}</text>
+      </view>
+    </view>
+
     <!-- 月份选择器 -->
     <view class="month-selector">
       <picker mode="selector" range="{{months}}" value="{{currentMonth-1}}" bindchange="onMonthChange">
@@ -13,37 +32,18 @@
     </view>
     
     <!-- 水果列表 -->
-    <view class="fruit-list">
-      <block wx:for="{{currentPageFruits}}" wx:key="index">
-        <view class="fruit-card">
-          <image class="fruit-image" src="{{item.image}}" mode="aspectFill"></image>
-          <view class="fruit-info">
-            <view class="fruit-header">
-              <text class="fruit-name">{{item.name}}</text>
-              <text class="fruit-price">¥{{item.price}}<text class="fruit-unit">/{{item.unit}}</text></text>
-            </view>
-            <view class="fruit-season">
-              <text class="label">应季时间</text>
-              <text class="value">{{item.season || '暂无信息'}}</text>
-            </view>
-            <view class="fruit-nutrition">
-              <text class="label">营养价值</text>
-              <text class="value">{{item.nutrition || '暂无信息'}}</text>
-            </view>
-            <view class="fruit-tips">
-              <text class="label">挑选建议</text>
-              <text class="value">{{item.tips || '暂无信息'}}</text>
-            </view>
+    <view class="fruits-container">
+      <view class="fruit-list">
+        <block wx:if="{{seasonalFruits.length > 0}}">
+          <view class="fruit-card" wx:for="{{seasonalFruits}}" wx:key="index">
+            <image class="fruit-image" src="{{item.image}}" mode="aspectFill" lazy-load></image>
+            <text class="fruit-name">{{item.name}}</text>
           </view>
+        </block>
+        <view class="empty-state" wx:else>
+          暂无应季水果推荐
         </view>
-      </block>
-    </view>
-
-    <!-- 分页控件 -->
-    <view class="pagination">
-      <view class="page-btn {{currentPage === 0 ? 'disabled' : ''}}" bindtap="prevPage">上一页</view>
-      <view class="page-indicator">{{currentPage + 1}}/{{totalPages}}</view>
-      <view class="page-btn {{currentPage === totalPages - 1 ? 'disabled' : ''}}" bindtap="nextPage">下一页</view>
+      </view>
     </view>
   </view>
 </scroll-view>
