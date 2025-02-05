@@ -3,7 +3,7 @@ page {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f8fafc;
+  background: #f7f8fa;
 }
 
 .scrollarea {
@@ -13,11 +13,11 @@ page {
 
 /* 日期卡片样式 */
 .date-card {
-  background: linear-gradient(135deg, #60a5fa, #3b82f6, #2563eb);
-  border-radius: 16rpx;
+  background: linear-gradient(135deg, #ffffff, #f5f7fa);
+  border-radius: 24rpx;
   padding: 32rpx;
   margin: 24rpx;
-  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
 }
 
 .date-header {
@@ -34,15 +34,15 @@ page {
 
 .date-number {
   font-size: 72rpx;
-  font-weight: 700;
-  color: #ffffff;
+  font-weight: 600;
+  color: #333333;
   line-height: 1;
   margin-right: 12rpx;
 }
 
 .date-month {
   font-size: 28rpx;
-  color: rgba(255, 255, 255, 0.9);
+  color: #666666;
   font-weight: 500;
   margin-top: 8rpx;
 }
@@ -50,7 +50,7 @@ page {
 .date-solar {
   display: block;
   font-size: 44rpx;
-  color: #ffffff;
+  color: #333333;
   font-weight: 600;
   margin: 16rpx 0;
 }
@@ -58,13 +58,13 @@ page {
 .date-motto {
   display: block;
   font-size: 26rpx;
-  color: rgba(255, 255, 255, 0.9);
+  color: #666666;
   margin-bottom: 16rpx;
 }
 
 .date-content {
   font-size: 28rpx;
-  color: rgba(255, 255, 255, 0.9);
+  color: #666666;
   line-height: 1.6;
 }
 
@@ -80,23 +80,23 @@ page {
   padding: 20rpx;
   margin: 0 24rpx 24rpx;
   background: #ffffff;
-  border-radius: 16rpx;
-  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
 }
 
 .month-btn {
-  width: 16.66%;
+  width: 20%;
   height: 80rpx;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 26rpx;
-  color: #475569;
+  color: #666666;
   position: relative;
 }
 
 .month-btn.active {
-  color: #2563eb;
+  color: #4080ff;
   font-weight: 500;
 }
 
@@ -108,7 +108,7 @@ page {
   transform: translateX(-50%);
   width: 24rpx;
   height: 4rpx;
-  background: #2563eb;
+  background: #4080ff;
   border-radius: 4rpx;
 }
 
@@ -116,9 +116,9 @@ page {
 .fruits-container {
   margin: 0 24rpx;
   background: #ffffff;
-  border-radius: 16rpx;
+  border-radius: 24rpx;
   padding: 24rpx;
-  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
 }
 
 .fruit-list {
@@ -135,7 +135,7 @@ page {
 
 .fruit-inner {
   background: #ffffff;
-  border-radius: 12rpx;
+  border-radius: 16rpx;
   overflow: hidden;
   box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
 }
@@ -153,7 +153,7 @@ page {
 
 .fruit-name {
   font-size: 28rpx;
-  color: #1e293b;
+  color: #333333;
   font-weight: 500;
   margin-bottom: 8rpx;
   white-space: nowrap;
@@ -168,13 +168,13 @@ page {
 
 .fruit-price {
   font-size: 32rpx;
-  color: #2563eb;
+  color: #4080ff;
   font-weight: 600;
 }
 
 .fruit-unit {
   font-size: 24rpx;
-  color: #64748b;
+  color: #999999;
   margin-left: 4rpx;
 }
 
@@ -182,6 +182,6 @@ page {
 .empty-state {
   text-align: center;
   padding: 64rpx 32rpx;
-  color: #64748b;
+  color: #999999;
   font-size: 28rpx;
 }
