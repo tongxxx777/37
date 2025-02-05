@@ -7,26 +7,13 @@
       <view class="date-header">
         <view class="date-left">
           <text class="date-number">{{day}}</text>
-          <text class="date-month">/ {{chineseMonth}}月\n</text>
+          <text class="date-month">/ {{chineseMonth}}月</text>
         </view>
       </view>
-      <!--
-      一月：岁初祈祥（寒冬腊月藏暖意，岁初祈愿岁末安）
-      二月：春醒万物（春风拂面解冻土，万物萌动待新安）
-      三月：桃花盈春（桃花笑春风，人间处处是小满）
-      四月：雨润岁宁（清明雨绵绵，思念悠悠岁长安）
-      五月：榴火燃夏（榴花照眼明，日子红火乐未央）
-      六月：荷香夏安（荷风送香气，夏日常安岁月长）
-      七月：流火静夏（流火七月天，静享清凉心自安）
-      八月：桂秋盈香（桂香满园秋意浓，岁月静好愿常逢）
-      九月：菊黄秋丰（菊黄蟹肥秋意满，人间烟火皆成安）
-      十月：霜降岁安（露凝霜降寒意起，心怀暖阳岁又安）
-      十一月：冬阳暖心（初冬暖阳照人心，静待岁月赐新安）
-      -->
-      <text class="date-solar">岁初祈祥\n</text>
-      <text class="date-motto">寒冬腊月藏暖意，岁初祈愿岁末安\n</text>
+      <text class="date-solar">{{solarTerm}}</text>
+      <text class="date-motto">{{motto}}</text>
       <view class="date-content">
-        <text>本月推荐：{{recommendFruits}}\n</text>
+        <text>本月推荐：{{recommendFruits}}</text>
         <text>小提示：{{warmTips}}</text>
       </view>
     </view>
@@ -49,12 +36,20 @@
       <view class="fruit-list">
         <block wx:if="{{seasonalFruits.length > 0}}">
           <view class="fruit-card" wx:for="{{seasonalFruits}}" wx:key="index">
-            <image class="fruit-image" src="{{item.image}}" mode="aspectFill" lazy-load></image>
-            <text class="fruit-name">{{item.name}}</text>
+            <view class="fruit-inner">
+              <image class="fruit-image" src="{{item.image}}" mode="aspectFill"></image>
+              <view class="fruit-info">
+                <view class="fruit-name">{{item.name}}</view>
+                <view class="fruit-price-container">
+                  <text class="fruit-price">{{item.price}}</text>
+                  <text class="fruit-unit">{{item.unit}}</text>
+                </view>
+              </view>
+            </view>
           </view>
         </block>
-        <view class="empty-state" wx:else>
-          暂无应季水果推荐
+        <view wx:else class="empty-state">
+          暂无水果信息
         </view>
       </view>
     </view>

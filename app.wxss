@@ -1,10 +1,86 @@
 /**app.wxss**/
+page {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
 .container {
-  height: 100%;
-  /* display: flex; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 24rpx;
   box-sizing: border-box;
+}
+
+/* 基础卡片样式 */
+.card {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 24rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+
+/* 按钮样式 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20rpx 32rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  border-radius: 12rpx;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #0ea5e9;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+/* 文本样式 */
+.title {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 16rpx;
+}
+
+.subtitle {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 12rpx;
+}
+
+.text {
+  font-size: 28rpx;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.text-sm {
+  font-size: 24rpx;
+  color: #64748b;
+}
+
+/* 分割线 */
+.divider {
+  height: 2rpx;
+  background: #e2e8f0;
+  margin: 24rpx 0;
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6rpx 16rpx;
+  font-size: 24rpx;
+  border-radius: 8rpx;
+  background: #f1f5f9;
+  color: #475569;
 }

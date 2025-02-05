@@ -3,306 +3,185 @@ page {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background: #f8fafc;
 }
+
 .scrollarea {
   flex: 1;
   overflow-y: auto;
 }
 
-.container {
-  padding: 16rpx;
-}
-
-/* 顶部日期卡片 */
+/* 日期卡片样式 */
 .date-card {
-  margin-bottom: 16rpx;
-  padding: 24rpx 32rpx;
-  background: #f5f7fa;
-  border-radius: 24rpx;
+  background: linear-gradient(135deg, #60a5fa, #3b82f6, #2563eb);
+  border-radius: 16rpx;
+  padding: 32rpx;
+  margin: 24rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.1);
 }
 
 .date-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 15rpx;
+  margin-bottom: 20rpx;
 }
 
 .date-left {
   display: flex;
   align-items: flex-start;
-  gap: 5rpx;
 }
 
 .date-number {
-  font-size: 64rpx;
-  font-weight: 600;
-  color: #333;
+  font-size: 72rpx;
+  font-weight: 700;
+  color: #ffffff;
   line-height: 1;
+  margin-right: 12rpx;
 }
 
 .date-month {
-  font-size: 24rpx;
-  color: #666;
-  font-weight: 400;
-  display: flex;
-  align-items: flex-end;
-  height: 35px;
+  font-size: 28rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  margin-top: 8rpx;
 }
 
 .date-solar {
-  font-size: 38rpx;
-  color: #333;
-  font-weight: 500;
+  display: block;
+  font-size: 44rpx;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 16rpx 0;
 }
 
 .date-motto {
-  font-size: 24rpx;
-  color: #999;
-  margin-top: 4rpx;
+  display: block;
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16rpx;
 }
 
 .date-content {
   font-size: 28rpx;
-  color: #666;
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
-  margin-top: 15rpx;
 }
 
-/* 月份选择器网格样式 */
+.date-content text {
+  display: block;
+  margin-bottom: 8rpx;
+}
+
+/* 月份选择器 */
 .month-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 12rpx;
-  padding: 16rpx 24rpx;
-  margin-bottom: 16rpx;
-  background: #f5f7fa;
-  border-radius: 24rpx;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  margin: 0 24rpx 24rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
 }
 
 .month-btn {
-  text-align: center;
-  padding: 16rpx 0;
+  width: 16.66%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 26rpx;
-  color: #666;
-  background: #fff;
-  border-radius: 12rpx;
-  transition: all 0.3s ease;
+  color: #475569;
+  position: relative;
 }
 
 .month-btn.active {
-  background: #2c3e50;
-  color: #fff;
+  color: #2563eb;
+  font-weight: 500;
 }
 
-/* 水果列表容器 */
+.month-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24rpx;
+  height: 4rpx;
+  background: #2563eb;
+  border-radius: 4rpx;
+}
+
+/* 水果列表 */
 .fruits-container {
-  background: #f5f7fa;
-  border-radius: 24rpx;
-  padding: 16rpx 24rpx;
+  margin: 0 24rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
 }
 
 .fruit-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8rpx;
 }
 
 .fruit-card {
+  width: 33.33%;
+  padding: 8rpx;
+  box-sizing: border-box;
+}
+
+.fruit-inner {
   background: #ffffff;
-  border-radius: 16rpx;
+  border-radius: 12rpx;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 15rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
 }
 
 .fruit-image {
-  width: 160rpx;
-  height: 160rpx;
-  border-radius: 12rpx;
-  margin-bottom: 12rpx;
-  background: #f8f8f8;
+  width: 100%;
+  height: 200rpx;
+  background-size: cover;
+  background-position: center;
+}
+
+.fruit-info {
+  padding: 16rpx;
 }
 
 .fruit-name {
-  font-size: 26rpx;
-  color: #333;
-  font-weight: 400;
-}
-
-/* 动画效果 */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30rpx);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fruit-card {
-  animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
-}
-
-.fruit-card:nth-child(3n + 1) {
-  animation-delay: 0.1s;
-}
-
-.fruit-card:nth-child(3n + 2) {
-  animation-delay: 0.2s;
-}
-
-.fruit-card:nth-child(3n + 3) {
-  animation-delay: 0.3s;
-}
-
-/* 空状态样式 */
-.empty-state {
-  text-align: center;
-  padding: 120rpx 0;
-  color: #999999;
   font-size: 28rpx;
+  color: #1e293b;
+  font-weight: 500;
+  margin-bottom: 8rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-/* 加载状态 */
-.loading {
-  text-align: center;
-  padding: 32rpx;
-  color: #999999;
-  font-size: 24rpx;
+.fruit-price-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .fruit-price {
-  font-size: 30rpx;
-  color: #0ea5e9;
+  font-size: 32rpx;
+  color: #2563eb;
   font-weight: 600;
 }
 
 .fruit-unit {
   font-size: 24rpx;
-  color: #94a3b8;
+  color: #64748b;
   margin-left: 4rpx;
-  font-weight: normal;
 }
 
-.fruit-season,
-.fruit-nutrition,
-.fruit-tips {
-  display: flex;
-  flex-direction: column;
-  gap: 8rpx;
-}
-
-.label {
-  font-size: 26rpx;
-  color: #64748b;
-  font-weight: 500;
-}
-
-.value {
-  font-size: 26rpx;
-  color: #334155;
-  line-height: 1.5;
-}
-
-/* 分页控件样式 */
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20rpx 0;
-  gap: 20rpx;
-}
-
-.page-btn {
-  padding: 16rpx 32rpx;
-  background: #ffffff;
-  color: #334155;
-  border-radius: 16rpx;
-  font-size: 26rpx;
-  box-shadow: 0 2rpx 12rpx rgba(148, 163, 184, 0.1);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1rpx solid #e2e8f0;
-  font-weight: 500;
-}
-
-.page-btn:active {
-  transform: translateY(2rpx);
-  background: #f8fafc;
-}
-
-.page-btn.disabled {
-  background: #f1f5f9;
-  color: #94a3b8;
-  pointer-events: none;
-  border-color: #e2e8f0;
-}
-
-.page-indicator {
-  font-size: 26rpx;
-  color: #64748b;
-  min-width: 100rpx;
+/* 空状态 */
+.empty-state {
   text-align: center;
-  font-weight: 500;
-}
-
-.tabs {
-  display: flex;
-  padding: 20rpx 30rpx;
-  background: #fff;
-  border-bottom: 1rpx solid #eee;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.tab {
-  padding: 12rpx 24rpx;
+  padding: 64rpx 32rpx;
+  color: #64748b;
   font-size: 28rpx;
-  color: #666;
-  position: relative;
-}
-
-.tab.active {
-  color: #4caf50;
-  font-weight: 500;
-}
-
-.tab.active::after {
-  content: "";
-  position: absolute;
-  bottom: -4rpx;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40rpx;
-  height: 4rpx;
-  background: #4caf50;
-  border-radius: 4rpx;
-}
-
-/* 状态标签 */
-.status-tag {
-  padding: 4rpx 12rpx;
-  border-radius: 8rpx;
-  font-size: 24rpx;
-}
-
-.status-good {
-  background: #e3f7f3;
-  color: #45b787;
-}
-
-.status-normal {
-  background: #f0f7ff;
-  color: #4a9eff;
-}
-
-.status-bad {
-  background: #fff2f0;
-  color: #ff4d4f;
 }
