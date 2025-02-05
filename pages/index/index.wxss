@@ -105,7 +105,7 @@ page {
 
 .fruit-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20rpx;
 }
 
@@ -116,7 +116,7 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16rpx;
+  padding-bottom: 15rpx;
 }
 
 .fruit-image {
