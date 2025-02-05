@@ -64,15 +64,15 @@ Page({
     const fruitsData = {
       1: [
         {name: "草莓",image:"../images/strawberry.png"},
-        {name: "车厘子",image:"../images/cherry.png"},
-        {name: "砂糖橘",image:"../images/sugar-mandarin.png"},
-        {name: "柚子",image:"../images/pear.png"},
-        {name: "甘蔗",image:"../images/cherry.png"},
+        {name: "车厘子",image:"../images/strawberry.png"},
+        {name: "砂糖橘",image:"../images/strawberry.png"},
+        {name: "柚子",image:"../images/strawberry.png"},
+        {name: "甘蔗",image:"../images/strawberry.png"},
       ],
       2: [
         {name: "草莓",image:"../images/strawberry.png"},
-        {name: "菠萝",image:"../images/citrus.png"},
-        {name: "圣女果",image:"../images/pear.png"},
+        {name: "菠萝",image:"../images/strawberry.png"},
+        {name: "圣女果",image:"../images/strawberry.png"},
       ],
       3: [
         {name: "草莓",image:"../images/strawberry.png"},
