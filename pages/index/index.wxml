@@ -41,7 +41,6 @@
     </view>
     
     <!-- 水果列表 -->
-    <view class="fruits-container">
       <block wx:if="{{currentMonthFruits.length > 0}}">
         <view class="fruit-list">
           <view class="fruit-item" wx:for="{{currentMonthFruits}}" wx:key="name">
@@ -64,5 +63,4 @@
         </view>
       </block>
     </view>
-  </view>
 </scroll-view>

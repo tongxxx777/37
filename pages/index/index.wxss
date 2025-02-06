@@ -78,6 +78,7 @@ page {
   background: #ffffff;
   border-radius: 24rpx;
   padding: 20rpx;
+  padding-bottom: 5rpx;
   box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
 }
 
@@ -85,10 +86,6 @@ page {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20rpx;
-}
-
-.month-grid:last-child {
-  margin-bottom: 0;
 }
 
 .month-btn {
@@ -136,19 +133,10 @@ page {
 }
 
 /* 水果列表 */
-.fruits-container {
-  margin: 0 24rpx;
-  background: #ffffff;
-  border-radius: 24rpx;
-  padding: 24rpx;
-  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
-}
-
 .fruit-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -8rpx;
-  padding: 20rpx 0;
+  padding: 8rpx;
 }
 
 .fruit-item {
@@ -159,7 +147,7 @@ page {
   background: #fff;
   border-radius: 16rpx;
   box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
-  width: calc(100% - 40rpx);
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -226,7 +214,6 @@ page {
   color: #999;
   line-height: 1.4;
 }
-
 /* 空状态 */
 .empty-state {
   text-align: center;
