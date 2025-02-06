@@ -74,7 +74,7 @@ page {
 
 /* 月份选择器 */
 .month-container {
-  margin: 0 24rpx 24rpx;
+  margin: 0 24rpx 0rpx;
   background: #ffffff;
   border-radius: 24rpx;
   padding: 20rpx;
