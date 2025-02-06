@@ -45,7 +45,6 @@
       <block wx:if="{{currentMonthFruits.length > 0}}">
         <view class="fruit-list">
           <view class="fruit-item" wx:for="{{currentMonthFruits}}" wx:key="name">
-            <view class="fruit-tag">{{item.tag}}</view>
             <image class="fruit-image" src="{{item.image}}" mode="aspectFit"></image>
             <view class="fruit-info">
               <view class="fruit-header">
