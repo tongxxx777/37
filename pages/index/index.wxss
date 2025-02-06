@@ -135,55 +135,39 @@ page {
   margin: -8rpx;
 }
 
-.fruit-card {
-  width: 33.33%;
-  padding: 8rpx;
-  box-sizing: border-box;
-}
-
-.fruit-inner {
-  background: #ffffff;
-  border-radius: 16rpx;
-  overflow: hidden;
-  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+.fruit-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .fruit-image {
-  width: 100%;
-  height: 200rpx;
-  background-size: cover;
-  background-position: center;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 8px;
 }
 
 .fruit-info {
-  padding: 16rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .fruit-name {
-  font-size: 28rpx;
-  color: #333333;
+  font-size: 16px;
   font-weight: 500;
-  margin-bottom: 8rpx;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.fruit-price-container {
-  display: flex;
-  align-items: baseline;
+  color: #333;
+  margin-bottom: 4px;
 }
 
 .fruit-price {
-  font-size: 32rpx;
-  color: #4080ff;
-  font-weight: 600;
-}
-
-.fruit-unit {
-  font-size: 24rpx;
-  color: #999999;
-  margin-left: 4rpx;
+  font-size: 14px;
+  color: #ff6b6b;
 }
 
 /* 空状态 */

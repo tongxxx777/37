@@ -44,16 +44,11 @@
     <view class="fruits-container">
       <view class="fruit-list">
         <block wx:if="{{seasonalFruits.length > 0}}">
-          <view class="fruit-card" wx:for="{{seasonalFruits}}" wx:key="index">
-            <view class="fruit-inner">
-              <image class="fruit-image" src="{{item.image}}" mode="aspectFill"></image>
-              <view class="fruit-info">
-                <view class="fruit-name">{{item.name}}</view>
-                <view class="fruit-price-container">
-                  <text class="fruit-price">{{item.price}}</text>
-                  <text class="fruit-unit">{{item.unit}}</text>
-                </view>
-              </view>
+          <view class="fruit-item" wx:for="{{seasonalFruits}}" wx:key="index">
+            <image class="fruit-image" src="/images/fruits/default-fruit.svg" mode="aspectFit"></image>
+            <view class="fruit-info">
+              <text class="fruit-name">{{item.name}}</text>
+              <text class="fruit-price">{{item.price}}{{item.unit}}</text>
             </view>
           </view>
         </block>
