@@ -19,15 +19,24 @@
     </view>
 
     <!-- 月份选择器 -->
-    <view class="month-grid">
-      <view 
-        class="month-btn {{currentMonth === index + 1 ? 'active' : ''}}" 
-        wx:for="{{months}}" 
-        wx:key="index"
-        bindtap="onMonthTap"
-        data-month="{{index + 1}}"
-      >
-        {{item}}
+    <view class="month-container">
+      <view class="month-grid">
+        <block wx:for="{{[1,2,3,4,5,6]}}" wx:key="*this">
+          <view class="month-btn {{currentMonth === item ? 'active' : ''}}" 
+                bindtap="onMonthTap" 
+                data-month="{{item}}">
+            {{item}}月
+          </view>
+        </block>
+      </view>
+      <view class="month-grid">
+        <block wx:for="{{[7,8,9,10,11,12]}}" wx:key="*this">
+          <view class="month-btn {{currentMonth === item ? 'active' : ''}}" 
+                bindtap="onMonthTap" 
+                data-month="{{item}}">
+            {{item}}月
+          </view>
+        </block>
       </view>
     </view>
     
