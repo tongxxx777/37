@@ -6,15 +6,15 @@
     <view class="date-card">
       <view class="date-header">
         <view class="date-left">
-          <text class="date-number">{{day}}</text>
-          <text class="date-month">/ {{chineseMonth}}月</text>
+          <text class="date-number">{{currentDate.day}}</text>
+          <text class="date-month">/ {{currentDate.month}}月</text>
         </view>
       </view>
-      <text class="date-solar">{{solarTerm}}</text>
-      <text class="date-motto">{{motto}}</text>
+      <text class="date-solar">{{currentDate.solarTerm}}</text>
+      <text class="date-motto">{{currentDate.motto}}</text>
       <view class="date-content">
-        <text>本月推荐：{{recommendFruits}}</text>
-        <text>小提示：{{warmTips}}</text>
+        <text>本月推荐：{{currentDate.recommendFruits}}</text>
+        <text>小提示：{{currentDate.tips}}</text>
       </view>
     </view>
 
