@@ -42,20 +42,28 @@
     
     <!-- 水果列表 -->
     <view class="fruits-container">
-      <view class="fruit-list">
-        <block wx:if="{{seasonalFruits.length > 0}}">
-          <view class="fruit-item" wx:for="{{seasonalFruits}}" wx:key="index">
-            <image class="fruit-image" src="/images/fruits/default-fruit.svg" mode="aspectFit"></image>
+      <block wx:if="{{currentMonthFruits.length > 0}}">
+        <view class="fruit-list">
+          <view class="fruit-item" wx:for="{{currentMonthFruits}}" wx:key="name">
+            <view class="fruit-tag">{{item.tag}}</view>
+            <image class="fruit-image" src="{{item.image}}" mode="aspectFit"></image>
             <view class="fruit-info">
-              <text class="fruit-name">{{item.name}}</text>
-              <text class="fruit-price">{{item.price}}{{item.unit}}</text>
+              <view class="fruit-header">
+                <text class="fruit-name">{{item.name}}</text>
+                <text class="fruit-price">{{item.price}}{{item.unit}}</text>
+              </view>
+              <view class="fruit-variety">{{item.variety}}</view>
+              <view class="fruit-origin">产地：{{item.origin}}</view>
+              <view class="fruit-description">{{item.description}}</view>
             </view>
           </view>
-        </block>
-        <view wx:else class="empty-state">
-          暂无水果信息
         </view>
-      </view>
+      </block>
+      <block wx:else>
+        <view class="empty-state">
+          <text>暂无水果信息</text>
+        </view>
+      </block>
     </view>
   </view>
 </scroll-view>

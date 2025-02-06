@@ -133,47 +133,89 @@ page {
   display: flex;
   flex-wrap: wrap;
   margin: -8rpx;
+  padding: 20rpx 0;
 }
 
 .fruit-item {
+  position: relative;
   display: flex;
-  align-items: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 30rpx;
+  margin: 20rpx;
   background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+  width: calc(100% - 40rpx);
+  box-sizing: border-box;
+}
+
+.fruit-tag {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  padding: 4rpx 16rpx;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 20rpx;
+  font-size: 24rpx;
 }
 
 .fruit-image {
-  width: 60px;
-  height: 60px;
-  margin-right: 15px;
-  border-radius: 8px;
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 30rpx;
+  border-radius: 12rpx;
+  flex-shrink: 0;
 }
 
 .fruit-info {
   flex: 1;
   display: flex;
   flex-direction: column;
+  min-width: 0;
+}
+
+.fruit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12rpx;
 }
 
 .fruit-name {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 32rpx;
+  font-weight: 600;
   color: #333;
-  margin-bottom: 4px;
 }
 
 .fruit-price {
-  font-size: 14px;
+  font-size: 32rpx;
   color: #ff6b6b;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.fruit-variety {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+
+.fruit-origin {
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+
+.fruit-description {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 1.4;
 }
 
 /* 空状态 */
 .empty-state {
   text-align: center;
-  padding: 64rpx 32rpx;
-  color: #999999;
+  padding: 40rpx;
+  color: #999;
   font-size: 28rpx;
 }
