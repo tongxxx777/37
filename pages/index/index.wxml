@@ -20,19 +20,24 @@
 
     <!-- 月份选择器 -->
     <view class="month-container">
-      <scroll-view class="month-scroll" scroll-x enhanced show-scrollbar="{{false}}" scroll-into-view="month-{{currentMonth}}" scroll-with-animation>
-        <view class="month-list">
-          <block wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}" wx:key="*this">
-            <view id="month-{{item}}"
-                  class="month-btn {{currentMonth === item ? 'active' : ''}}"
-                  bindtap="onMonthTap" 
-                  data-month="{{item}}">
-              <text>{{item}}月</text>
-              <view class="month-indicator"></view>
-            </view>
-          </block>
-        </view>
-      </scroll-view>
+      <view class="month-grid">
+        <block wx:for="{{[1,2,3,4,5,6]}}" wx:key="*this">
+          <view class="month-btn {{currentMonth === item ? 'active' : ''}}" 
+                bindtap="onMonthTap" 
+                data-month="{{item}}">
+            {{item}}月
+          </view>
+        </block>
+      </view>
+      <view class="month-grid">
+        <block wx:for="{{[7,8,9,10,11,12]}}" wx:key="*this">
+          <view class="month-btn {{currentMonth === item ? 'active' : ''}}" 
+                bindtap="onMonthTap" 
+                data-month="{{item}}">
+            {{item}}月
+          </view>
+        </block>
+      </view>
     </view>
     
     <!-- 水果列表 -->

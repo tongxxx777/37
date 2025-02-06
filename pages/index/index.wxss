@@ -77,34 +77,37 @@ page {
   margin: 0 24rpx 24rpx;
   background: #ffffff;
   border-radius: 24rpx;
-  padding: 0;
+  padding: 20rpx;
   box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
-  overflow: hidden;
 }
 
-.month-scroll {
-  width: 100%;
-  white-space: nowrap;
-  background: linear-gradient(to right, #ffffff 0%, rgba(255,255,255,0.9) 5%, rgba(255,255,255,0.9) 95%, #ffffff 100%);
+.month-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
 }
 
-.month-list {
-  display: inline-flex;
-  padding: 16rpx 24rpx;
+.month-grid:last-child {
+  margin-bottom: 0;
 }
 
 .month-btn {
-  display: inline-flex;
-  flex-direction: column;
+  flex: 1;
+  height: 50rpx;
+  margin: 0 8rpx;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 12rpx 32rpx;
+  font-size: 28rpx;
+  color: #666666;
+  background: #f5f7fa;
+  border-radius: 12rpx;
   position: relative;
-  transition: all 0.3s ease;
 }
 
-.month-btn text {
-  font-size: 28rpx;
-  color: #666;
+.month-btn.active{
+   color: #ffffff;
+  background: #4080ff;
   font-weight: 500;
   transition: all 0.3s ease;
 }
