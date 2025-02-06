@@ -15,7 +15,7 @@ page {
 .date-card {
   background: linear-gradient(135deg, #ffffff, #f5f7fa);
   border-radius: 24rpx;
-  padding: 32rpx;
+  padding: 20rpx 30rpx;
   margin: 24rpx;
   box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.05);
 }
@@ -24,7 +24,6 @@ page {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 20rpx;
 }
 
 .date-left {
@@ -37,14 +36,14 @@ page {
   font-weight: 600;
   color: #333333;
   line-height: 1;
-  margin-right: 12rpx;
+  margin-right: 5rpx;
 }
 
 .date-month {
   font-size: 28rpx;
   color: #666666;
   font-weight: 500;
-  margin-top: 8rpx;
+  margin-top: 40rpx;
 }
 
 .date-solar {
